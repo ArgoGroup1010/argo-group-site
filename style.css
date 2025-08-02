@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: white;
+  color: #c40000;
+}
+
+header {
+  background-color: #c40000;
+  color: white;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  background: white;
+  text-align: center;
+  padding: 4rem 2rem;
+  border-bottom: 2px solid #c40000;
+}
+
+.hero h2 {
+  margin-bottom: 1rem;
+  color: #c40000;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #c40000;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #a00000;
+}
+
+.section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  border-bottom: 1px solid #eee;
+}
+
+.section h2 {
+  color: #c40000;
+  margin-bottom: 1rem;
+}
+
+.service-list,
+.partner-list {
+  list-style: none;
+  padding: 0;
+}
+
+.service-list li,
+.partner-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.contact a {
+  color: #c40000;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #c40000;
+  font-size: 0.9rem;
+  color: white;
+}
